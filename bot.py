@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
 # ← Testing အတွက် token ကို ဒီလို ထည့်ကြည့်ပါ
-BOT_TOKEN = "YOUR_BOT_TOKEN"
+BOT_TOKEN = "BOT_TOKEN"
 ADMINS = ["ADMIN_USER_ID"]
 
 USERS_FILE = "users.txt"
