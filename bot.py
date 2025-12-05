@@ -2,7 +2,7 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-BOT_TOKEN = os.environ["8297713361:AAGlD1Nu0SnW9ZKHz1UHR33zqqtRC0cpAC0"]
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 ADMINS = os.environ["8365833368"].split(",")
 
 USERS_FILE = "users.txt"
